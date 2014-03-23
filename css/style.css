@@ -1917,9 +1917,21 @@ body {
 .content-23 {
   background-color: #1B1F23;
 }
+
+.res-video {
+  width:1300px;
+}
+
+@media (max-width: 480px) {
+  .res-video {
+    width:480px;
+  }
+}  
+
 .content-23.custom-bg {
   background-color: white;
-  background-image: url('../img/table.jpg'), url('../img/table1.jpg');
+  /* background-image: url('../img/table.jpg'), url('../img/table1.jpg'); */
+  /* background-image: url('http://www.zendesk.com/wp-content/themes/zendesk-twentyeleven/img/p-detractor-landing/the-video-2X.webm'); */
   background-position: bottom center;
   background-repeat: no-repeat, repeat-x;
   background-image: url('../img/table.jpg') \9;
