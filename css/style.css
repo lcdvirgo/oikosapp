@@ -24,6 +24,19 @@
   color: #22364A;
 }
 
+
+.btn-success {
+  width:100%;
+  background: #FAD36B !important;
+  color: #93762C !important;
+}
+
+.btn-success:hover {
+  width:100%;
+  background: #ffffff !important;
+  color: #FAD36B !important;
+}
+
 .button-left:hover {
   background: #ffffff;
   color: #81C2D5;
@@ -919,12 +932,12 @@ section * {
   background-color: transparent;
 }
 .header-10-sub .hero-unit h1 {
-  margin: 0 0 30px;
   font-size: 45px;
   font-weight: normal;
   color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  line-height:120%;
 }
 .header-10-sub .hero-unit p {
   font-size: 25px;
@@ -935,6 +948,10 @@ section * {
   line-height: 37.5px;
 }
 @media (max-width: 480px) {
+  .header-10 .navbar .brand img:first-child {
+  float: left;
+  margin: -80px 15px 0 0;
+}
   .header-10-sub .hero-unit h1 {
     font-size: 36px;
     font-weight: normal;
@@ -1644,8 +1661,6 @@ body {
   font-size: 50px;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: -2px;
-  margin-bottom: 35px;
 }
 @media (max-width: 480px) {
   .header-10-sub .hero-unit h1 {
@@ -1653,6 +1668,7 @@ body {
   }
 }
 .header-10-sub .hero-unit p {
+  margin: 0 0 30px;
   font-size: 23px;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 33px;
@@ -1725,7 +1741,7 @@ body {
   }
 }
 .header-10-sub .background {
-  background-image: url("../img/bg-cover.jpg");
+  background-image: url("../img/bg-cover.png");
   /* opacity: 1; */
   filter: alpha(opacity=100);
 }
