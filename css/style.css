@@ -26,7 +26,7 @@
 
 
 .btn-success {
-  width:100%;
+  width:50%;
   background: #FAD36B !important;
   color: #93762C !important;
 }
@@ -951,6 +951,10 @@ section * {
   .header-10 .navbar .brand img:first-child {
   float: left;
   margin: -80px 15px 0 0;
+}
+
+.btn-success {
+  width:100%;
 }
   .header-10-sub .hero-unit h1 {
     font-size: 36px;
